@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/nest-cli",
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src",
+  "projects": {
+    "lib-ale": {
+      "type": "library",
+      "root": "libs/lib-ale",
+      "entryFile": "index",
+      "sourceRoot": "libs/lib-ale/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/lib-ale/tsconfig.lib.json"
+      }
+    }
+  },
+  "compilerOptions": {
+    "webpack": true
+  }
+}
